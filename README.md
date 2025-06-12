@@ -31,8 +31,11 @@ Responsividade utilizando width e hight para valores ( com media queries )
 ## Tecnologias:
 
 Next.js
+
 Jest para testes
+
 Styled Components para estilizacao
+
 TypeScript
 
 ### Teste com jest:
