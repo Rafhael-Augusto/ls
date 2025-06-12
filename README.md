@@ -21,8 +21,11 @@ npm run dev
 ### Funcionalidades:
 
 Os botoes 'Quem somos', 'Ajuda', 'Entrar' e outros tem funcionalidades
+
 Aproximadamente 23 botoes com funcionalidades
+
 Header e Footer personalizados
+
 Responsividade utilizando width e hight para valores ( com media queries )
 
 ## Tecnologias:
