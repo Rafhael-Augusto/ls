@@ -47,3 +47,13 @@ Rode o comando no terminal para iniciar os testes:
 ```
 npm run test
 ```
+
+### Link do projeto na vercel:
+
+https://ls-gamma.vercel.app/
+
+### Rollback Simples na vercel:
+
+E necessario ir no projeto na vercel, e clicar em 'instant rollback' e continuar
+
+
