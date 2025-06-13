@@ -2,7 +2,6 @@
 
 import { useRouter } from "next/navigation";
 
-import { GlobalStyle } from "@/globalStyles/GlobalStyle";
 import * as S from "./styles";
 
 import { FiFacebook } from "react-icons/fi";
@@ -28,7 +27,6 @@ export function Footer() {
 
   return (
     <>
-      <GlobalStyle />
       <S.Content>
         <S.ColumnsList>
           <S.Column gap={52}>

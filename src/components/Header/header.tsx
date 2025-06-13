@@ -4,7 +4,6 @@ import { useRouter } from "next/navigation";
 import { useState } from "react";
 import Image from "next/image";
 
-import { GlobalStyle } from "../../globalStyles/GlobalStyle";
 import * as S from "./styles";
 
 import { FaRegQuestionCircle } from "react-icons/fa";
@@ -35,7 +34,6 @@ export default function Header() {
 
   return (
     <>
-      <GlobalStyle />
       <S.CloseDropDown
         style={{ display: state.isDropDownOpen ? "block" : "none" }}
         onClick={() => setState((prev) => ({ ...prev, isDropDownOpen: false }))}

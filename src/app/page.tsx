@@ -1,6 +1,3 @@
-"use client";
-
-import { GlobalStyle } from "@/globalStyles/GlobalStyle";
 import * as S from "./styles";
 
 import { Footer } from "@/components/Footer/footer";
@@ -9,7 +6,6 @@ import Header from "@/components/Header/header";
 export default function Home() {
   return (
     <>
-      <GlobalStyle />
       <Header />
       <S.Hero>
         <S.Content>

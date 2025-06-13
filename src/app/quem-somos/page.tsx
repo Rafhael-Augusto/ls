@@ -1,15 +1,11 @@
-"use client";
-
 import Header from "@/components/Header/header";
 import { Footer } from "@/components/Footer/footer";
 
-import { GlobalStyle } from "@/globalStyles/GlobalStyle";
 import * as S from "./styles";
 
 export default function WhoWeAre() {
   return (
     <>
-      <GlobalStyle />
       <Header />
       <S.Container>
         <S.Title>Atendimento qualificado, seguro e inclusivo</S.Title>

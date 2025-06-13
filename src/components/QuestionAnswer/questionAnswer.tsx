@@ -5,7 +5,6 @@ import { useState } from "react";
 import { IoIosArrowDown } from "react-icons/io";
 import { IoIosArrowUp } from "react-icons/io";
 
-import { GlobalStyle } from "@/globalStyles/GlobalStyle";
 import * as S from "./styles";
 
 type qa = {
@@ -24,8 +23,6 @@ export default function QA({ question, answer }: qa) {
 
   return (
     <>
-      <GlobalStyle />
-
       <S.Content style={{ marginBottom: "0" }} onClick={HandleClick}>
         <h1 style={{ fontWeight: "lighter" }}>{question}</h1>
         <IoIosArrowDown

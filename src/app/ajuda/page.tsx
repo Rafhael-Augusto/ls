@@ -6,7 +6,6 @@ import Header from "@/components/Header/header";
 import { Footer } from "@/components/Footer/footer";
 import QA from "@/components/QuestionAnswer/questionAnswer";
 
-import { GlobalStyle } from "@/globalStyles/GlobalStyle";
 import * as S from "./styles";
 
 export default function HelpPage() {
@@ -18,7 +17,6 @@ export default function HelpPage() {
 
   return (
     <>
-      <GlobalStyle />
       <S.Container>
         <Header />
         <S.ExtraInfo>
