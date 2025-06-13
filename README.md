@@ -50,7 +50,7 @@ npm run test
 
 ### Link do projeto na vercel:
 
-https://ls-gamma.vercel.app/
+https://ls-git-deploy-rafhael-augustos-projects.vercel.app/
 
 ### Rollback Simples na vercel:
 
